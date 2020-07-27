@@ -1,9 +1,5 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -360,6 +356,11 @@ ul#nav li.current a {
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.sql {
+    width: 100%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
+}
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
@@ -385,6 +386,10 @@ ul#nav li.current a {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
+@-moz-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
+}
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
@@ -409,6 +414,10 @@ ul#nav li.current a {
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+@-webkit-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
 }
 
 /* ------------------------------------------------------------------ */

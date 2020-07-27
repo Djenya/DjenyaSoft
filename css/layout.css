@@ -358,8 +358,8 @@ ul#nav li.current a {
 }
 .sql {
     width: 100%;
-    -moz-animation: jquery 2s ease;
-    -webkit-animation: jquery 2s ease;
+    -moz-animation: sql 2s ease;
+    -webkit-animation: sql 2s ease;
 }
 
 @-moz-keyframes photoshop {
